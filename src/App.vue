@@ -185,7 +185,7 @@ body * {
     min-width: 100vw;
   }
   .header-item {
-    position: fixed;
+    position: relative;
     width: 100vw;
     height: 60px;
     flex-direction: row;
