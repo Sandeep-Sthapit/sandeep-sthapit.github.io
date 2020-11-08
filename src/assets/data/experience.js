@@ -32,22 +32,22 @@ export const experienceData = [{
         ],
         samples: [{
                 text: 'Click to Play Exercise',
-                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574793043/Website/croc.png',
+                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813620/Website/croc.png',
                 url: 'https://pustakalaya.org/epaath/activity.html?id=matcon01&lang=en&grade=2&exercise=yes'
             },
             {
                 text: 'Click to Learn Algebra',
-                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574793043/Website/algebra.png',
+                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813619/Website/algebra.png',
                 url: 'https://pustakalaya.org/epaath/activity.html?id=matag401&lang=en&grade=4'
             },
             {
                 text: 'Click to Read Story',
-                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574793043/Website/tortoise.png',
+                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813623/Website/tortoise.png',
                 url: 'https://pustakalaya.org/epaath/activity.html?id=nepass01&lang=np&grade=3'
             },
             {
                 text: 'Click to Learn',
-                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574793044/Website/desc.png',
+                image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813620/Website/desc.png',
                 url: 'https://pustakalaya.org/epaath/activity.html?id=engdpp01&lang=en&grade=6'
             }
         ]

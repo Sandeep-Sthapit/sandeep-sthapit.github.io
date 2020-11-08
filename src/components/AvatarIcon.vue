@@ -1,12 +1,17 @@
 <template>
     <div class="avatar">
-        <img src="https://res.cloudinary.com/sandeepsthapit/image/upload/v1604657547/Website/sandeep_pp.jpg"/> 
+        <img :src="imageItem.src" :alt="imageItem.alt"/> 
     </div>
 </template>
 
 <script>
 export default {
-    
+    props: {
+        imageItem: {
+            type: Object,
+            required: true
+        }
+    }
 }
 </script>
 

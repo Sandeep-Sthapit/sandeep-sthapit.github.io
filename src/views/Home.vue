@@ -1,20 +1,8 @@
 <template>
   <div class="home">
-    <AvatarIcon />
+    <AvatarIcon :imageItem="introductionData.avatar"/>
     <div class="content">
-      <p>Hello, I am Sandeep.</p>
-      <p>
-        I am a Research Assistant at
-        <a class="green-link" href="https://www.naamii.com.np/" target="blank"
-          >Nepal Applied Mathematics and Informatics Institute for Research
-          (NAAMII)</a
-        >. I am doing research in Artificial Intelligence in Education under the
-        supervision of Dr. Dovan Rai. My current research focuses on evaluating
-        the effectiveness of various interventions in Intelligent Tutoring Systems
-        with a particular focus on developing countries like Nepal.
-      </p>
-      <p>
-        I am also interested in travelling, playing games and bodyweight fitness.
+      <p v-for="(text, idx) in introductionData.texts" :key="idx" v-html="text">
       </p>
     </div>
   </div>
@@ -22,6 +10,7 @@
 
 <script>
 import { defineAsyncComponent } from "vue";
+import { introductionData } from '../assets/data/about.js'
 
 const AvatarIcon = defineAsyncComponent(() =>
   import("../components/AvatarIcon.vue")
@@ -31,6 +20,11 @@ export default {
   components: {
     AvatarIcon,
   },
+  setup () {
+    return {
+      introductionData
+    }
+  }
 };
 </script>
 

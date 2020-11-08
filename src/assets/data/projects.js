@@ -5,15 +5,15 @@ export const projectsData = [{
     ],
     samples: [{
             text: 'Project Concept',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855024/Website/concept.gif'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813621/Website/concept.gif'
         },
         {
             text: 'Project Concept',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855025/Website/major.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/major.png'
         },
         {
             text: 'Output 3D Model',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855280/Website/output.gif'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/output.gif'
         }
     ]
 }, {
@@ -24,19 +24,19 @@ export const projectsData = [{
     ],
     samples: [{
             text: 'Treadbot',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574852388/Website/treadbot.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813623/Website/treadbot.jpg'
         },
         {
             text: 'Hand Gesture Detection',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574852389/Website/minor-final.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813621/Website/minor-final.png'
         },
         {
             text: 'Positive Samples',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574852388/Website/positive.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/positive.png'
         },
         {
             text: 'Negative Samples',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574852389/Website/negative.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/negative.png'
         }
     ]
 }, {
@@ -47,19 +47,19 @@ export const projectsData = [{
     ],
     samples: [{
             text: 'Basketball',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855024/Website/cg-ball.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813620/Website/cg-ball.png'
         },
         {
             text: 'Side View',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855023/Website/cg-side.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813619/Website/cg-side.png'
         },
         {
             text: 'Top View',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855023/Website/cg-top.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813619/Website/cg-top.png'
         },
         {
             text: 'Ball Projection',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855023/Website/cg-motion.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813619/Website/cg-motion.png'
         }
     ]
 }, {
@@ -74,19 +74,19 @@ export const projectsData = [{
     ],
     samples: [{
             text: 'Loading Screen',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574856314/Website/it1.png'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813620/Website/it1.png'
         },
         {
             text: 'Available Routes',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574856314/Website/it2.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/it2.jpg'
         },
         {
             text: 'Vehicle Routes',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574856314/Website/it3.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813621/Website/it3.jpg'
         },
         {
             text: 'Vehicles List',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574856314/Website/it4.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813621/Website/it4.jpg'
         }
     ]
 }, {
@@ -96,15 +96,15 @@ export const projectsData = [{
     ],
     samples: [{
             text: 'List of Cuisines',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855877/Website/nxp-1.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/nxp-1.jpg'
         },
         {
             text: 'Nepali Foods',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855877/Website/nxp-2.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/nxp-2.jpg'
         },
         {
             text: 'Food Details',
-            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1574855877/Website/nxp-3.jpg'
+            image: 'https://res.cloudinary.com/sandeepsthapit/image/upload/v1604813622/Website/nxp-3.jpg'
         }
     ]
 }]
