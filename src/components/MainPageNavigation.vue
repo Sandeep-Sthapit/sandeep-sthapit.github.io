@@ -1,22 +1,20 @@
 <template>
-<div class="navigation">
-    <router-link :to="{name: 'Home'}"> About </router-link>
-    <router-link :to="{name: 'Education'}"> Education </router-link>
-    <router-link :to="{name: 'Experience'}"> Experience </router-link>
-    <router-link :to="{name: 'Publication'}"> Publications </router-link>
-    <router-link :to="{name: 'Skills'}"> Skills </router-link>
-    <router-link :to="{name: 'Projects'}"> Projects </router-link>
-</div>
+  <div class="navigation">
+    <router-link :to="{ name: 'Home' }"> About </router-link>
+    <router-link :to="{ name: 'Education' }"> Education </router-link>
+    <router-link :to="{ name: 'Experience' }"> Experience </router-link>
+    <router-link :to="{ name: 'Publication' }"> Publications </router-link>
+    <router-link :to="{ name: 'Skills' }"> Skills </router-link>
+    <router-link :to="{ name: 'Projects' }"> Projects </router-link>
+  </div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 
 <style scoped>
-.navigation{
+.navigation {
   display: flex;
   width: 75%;
   margin: 0 auto;
@@ -31,14 +29,14 @@ export default {
   color: #333333;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.15rem;
   padding: 0.5rem 0.1rem;
   margin-right: 0.5rem;
   font-size: 1rem;
   display: inline-block;
   position: relative;
 }
-.navigation a:after {    
+.navigation a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -50,60 +48,36 @@ export default {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.navigation a:hover:after { 
-  width: 100%; 
-  left: 0; 
+.navigation a:hover:after {
+  width: 100%;
+  left: 0;
 }
 a.router-link-exact-active {
-  color: #8F8F8F;
+  color: #8f8f8f;
 }
 a.router-link-exact-active:after {
   background: none;
-  width: 0%; 
+  width: 0%;
 }
 a.router-link-exact-active:hover:after {
   background: none;
-  width: 0%; 
+  width: 0%;
 }
 
-#index>span{
-  float: right;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.3rem;
-  text-align: right;
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1080px) {
   .navigation{
-    width: 100% !important;
-    max-width: 100%;
-    height: auto; 
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    width: 100%;
   }
-  #index>span {
-    display: none;
-  }
-  #index:after {
-    content: 'home';
-  }
-  #index{
-    font-size: 1rem !important;
-    content: 'HOME';
-  }
-  .index-sidebar a {
-    font-size: 1rem;
-    float: left;
+  .navigation a {
+    font-size: 0.9rem;
+    letter-spacing: 0rem;
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .navigation a {
-    text-align: center;
-    float: none;
+@media screen and (max-width: 640px) {
+  .navigation {
+    display: none;
   }
 }
 </style>

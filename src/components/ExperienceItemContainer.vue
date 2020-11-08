@@ -9,7 +9,7 @@
           <h2 class="title">{{ experienceItem.title }}</h2>
         </div>
         <div class="expand">
-          <p>{{expand}}</p>
+          <p>{{ expand }}</p>
         </div>
       </div>
       <a
@@ -30,7 +30,11 @@
         ></p>
       </div>
       <div class="samples" v-if="experienceItem.samples" v-show="showDetails">
-        <sampleWork v-for="(work, idx) in experienceItem.samples" :key="idx" :work="work"/>
+        <sampleWork
+          v-for="(work, idx) in experienceItem.samples"
+          :key="idx"
+          :work="work"
+        />
       </div>
     </div>
   </li>
@@ -45,7 +49,7 @@ const sampleWork = defineAsyncComponent(() =>
 
 export default {
   components: {
-    sampleWork
+    sampleWork,
   },
   props: {
     experienceItem: {
@@ -55,17 +59,17 @@ export default {
   },
   setup() {
     const showDetails = ref(false);
-    const expand = ref('+')
+    const expand = ref("+");
 
     const toggleDetail = () => {
       showDetails.value = !showDetails.value;
-      expand.value === '+' ? expand.value = '-' : expand.value = '+'
+      expand.value === "+" ? (expand.value = "-") : (expand.value = "+");
     };
 
     return {
       showDetails,
       toggleDetail,
-      expand
+      expand,
     };
   },
 };
@@ -79,7 +83,7 @@ export default {
   padding-left: 3rem;
   padding-bottom: 2rem;
   width: 100%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 .container::before {
   position: absolute;
@@ -101,8 +105,8 @@ export default {
   border-color: #31af70;
   transition: all 500ms ease-in-out;
 }
-.container:hover .expand>p{
-  color: #D49A89
+.container:hover .expand > p {
+  color: #d49a89;
 }
 .wrapper {
   cursor: pointer;
@@ -121,18 +125,18 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-.expand{
+.expand {
   height: 100%;
   margin-right: 1rem;
   display: flex;
   align-items: center;
 }
-.expand p{
+.expand p {
   font-size: 2rem;
   margin: 0;
-	color: #41B883;
+  color: #41b883;
   transition: 0.2s ease-in-out;
 }
 .date {
@@ -163,9 +167,44 @@ export default {
   color: #666;
   font-size: 0.9rem;
 }
-.samples{
+.samples {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+  .institution {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    margin: 0 auto;
+    border-left: none;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+  }
+  .container::before {
+    position: absolute;
+    cursor: pointer;
+    left: -1rem;
+    top: -0.5px;
+    content: " ";
+    border: none;
+    border-radius: 50%;
+    background: none;
+    height: 0;
+    width: 0;
+    transition: none;
+  }
+  .container:last-child {
+    border-left: 0;
+  }
+  .container:hover::before {
+    border: none;
+    transition: none;
+  }
 }
 </style>

@@ -45,6 +45,7 @@ export default {
 .list {
   margin: 20px 0;
   padding: 0;
+  width: 100%;
   display: inline-block;
 }
 </style>

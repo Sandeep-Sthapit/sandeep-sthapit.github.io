@@ -89,4 +89,11 @@ export default {
     opacity: 0;
     transition: 0.4s ease-in-out;
 }
+
+@media screen and (max-width: 640px) {
+    
+    .sample-item img{
+        height: 9rem;
+    }
+}
 </style>
