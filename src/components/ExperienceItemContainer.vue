@@ -177,7 +177,6 @@ export default {
   .institution {
     font-size: 0.9rem;
   }
-
   .container {
     margin: 0 auto;
     border-left: none;
