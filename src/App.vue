@@ -162,7 +162,6 @@ body * {
   .main-container {
     width: 100%;
   }
-  
   .header-item {
     width: 100%;
     height: 150px;
@@ -170,7 +169,6 @@ body * {
   .content-container {
     margin-top: 150px;
   }
-
 }
 @media screen and (max-width: 640px) {
   .hamburger-nav {
