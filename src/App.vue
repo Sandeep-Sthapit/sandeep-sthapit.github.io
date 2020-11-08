@@ -101,6 +101,7 @@ body * {
 }
 .second-container {
   max-width: 1080px;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
