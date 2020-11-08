@@ -81,7 +81,6 @@ body * {
   box-sizing: border-box;
   position: relative;
 }
-
 #app {
   position: relative;
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -91,7 +90,6 @@ body * {
   color: #2c3e50;
   height: 100%;
 }
-
 .main-container {
   max-width: 1080px;
   width: 100%;
