@@ -115,7 +115,6 @@ export default {
   align-items: flex-start;
   justify-content: center;
 }
-
 .title-container {
   display: flex;
   width: 100%;
@@ -145,7 +144,6 @@ export default {
   margin-bottom: 1rem;
   font-size: 1rem;
 }
-
 .title {
   color: #444;
   font-size: 1.3rem;
