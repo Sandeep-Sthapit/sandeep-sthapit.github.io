@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <MobileNavigation :class="{ openedNav: isMobile }" @click="displayMenu"/>
+    <MobileNavigation :class="{ openedNav: isMobile }" @click="displayMenu" />
     <div class="second-container">
       <div class="header-item">
         <img
@@ -179,7 +179,7 @@ body * {
     flex-direction: row;
     justify-content: flex-start;
   }
-  .second-container{
+  .second-container {
     width: 100vw;
     min-width: 100vw;
   }
