@@ -63,7 +63,7 @@ export const projectsData = [{
         }
     ]
 }, {
-    title: "Robotic Resataurant",
+    title: "Robotic Restaurant",
     details: [
         'Robotic Restaurant is an autonomous path finding robot that uses Kinect, Lidar to create a map and navigate accordingly. The idea was to create a modern restaurant environment where customer orders food through a mobile application and robot serves the food to the right customer. It was displayed in LOCUS 2016 ( a national level exhibition/competition) and was ranked 1st place in the Industrial and Automation Competition in the same competition. My fellow project partners have expanded this project and developed an intelligent robot that is currently serving food at Naulo Restaurant in Nepal. They are also exporting some of the robots internationally. For more information check out <a class="green-link" href="https://paailatechnology.com/" target="blank">Paaila Technology</a>.',
     ]
