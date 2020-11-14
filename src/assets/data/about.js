@@ -5,7 +5,7 @@ export const introductionData = {
     },
     texts: [
         'Hello, I am Sandeep.',
-        'I am a Research Assistant at <a class="green-link" href="https://www.naamii.com.np/" target="blank">Nepal Applied Mathematics and Informatics Institute for Research (NAAMII)</a>. I am doing research in Artificial Intelligence in Education under the supervision of Dr. Dovan Rai. My current research focuses on evaluating the effectiveness of various interventions in Intelligent Tutoring Systems with a particular focus on developing countries like Nepal.',
-        'I am also interested in travelling, playing games and bodyweight fitness.'
+        'I am a Research Enthusiast with a passion for understanding how people learn and creating a creative and interactive learning environment. I have a unique combination of design, development, and research experience that enables me to tackle a diverse set of problems in projects.',
+        'In my free time, I enjoy traveling, playing games, and bodyweight fitness.'
     ]
 }

@@ -13,7 +13,9 @@
       </div>
       <div class="content-container">
         <div class="contents">
-          <router-view />
+          <transition name="fade">
+            <router-view />
+          </transition>
         </div>
         <PageFooterContact />
       </div>
@@ -156,6 +158,19 @@ body * {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-enter-active{
+  transition: opacity 0.5s ease;
+  transition-delay: 0.25s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 @media screen and (max-width: 1080px) {
   .main-container {
     width: 100%;
