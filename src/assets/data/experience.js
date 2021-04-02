@@ -6,7 +6,7 @@ export const experienceData = [{
             url: "http://www.olenepal.org/",
         },
         details: [
-            "Open Learning Exchange Nepal (OLE Nepal) is a social benefit organization that provides quality accessible education through learning technology. I was part of the <a class='green-link' href='https://pustakalaya.org/epaath/'>E-Paath</a> (an interactive digital learning platform) team which is responsible for designing and developing educational content and games. I am involved in training and guiding the developers.",
+            "Open Learning Exchange Nepal (OLE Nepal) is a social benefit organization that provides quality accessible education through learning technology. I was part of the <a class='green-link' href='https://pustakalaya.org/epaath/'>E-Paath</a> (an interactive digital learning platform) team which is responsible for designing and developing educational content and games. I am involved in training and guiding the developers, as well as developing specific activities.",
         ],
     }, {
         title: "Research Assistant",
